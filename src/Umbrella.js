@@ -67,6 +67,7 @@ function Umbrella() {
         <img style={{display:YellowDisplay}} className='UmbrellaImg' src={Yellow}></img>
         <img style={{display:BlueDisplay}} className='UmbrellaImg' src={Blue}></img>
         <img style={{display:PinkDisplay}} className='UmbrellaImg' src={Pink}></img>
+        <img className='Logo' src={Image}></img>
         </center>
        
         <center className='ButtonDiv'>
@@ -89,8 +90,6 @@ function Umbrella() {
         
 
         </center>
-        <img className='Logo' src={Image}></img>
-      
     </div>
   )
 }

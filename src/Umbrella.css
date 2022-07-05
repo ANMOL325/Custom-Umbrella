@@ -74,10 +74,10 @@ h1{
     background-color: black;
 }
 .Logo{
-    position: fixed;
-    bottom: 40vh;
-    width: 30px;
-    
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    width: 30px;  
 }
 
 @media all and (max-width:449px) {
@@ -101,6 +101,11 @@ h1{
         margin-left: -10px;
         background-color: red;
         width: 50vw;
+    }
+     
+    .Logo{
+        width: 8vw;
+        margin-right: 10px;
     }
  }
 

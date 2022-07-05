@@ -78,6 +78,10 @@ h1{
     bottom: 60px;
     left: 15px;
     width: 30px;  
+    height: 30px;
+    /* border: 1px solid black;  */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media all and (max-width:449px) {
